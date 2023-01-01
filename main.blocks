@@ -1,4 +1,25 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Fl:6::ly8yR:NsA82$P;" x="20" y="20"><statement name="HANDLER"><block type="radio_set_group" id="(jcIYY0!28c5oR+S/jSK"><value name="ID"><shadow type="math_number_minmax" id="hT`#9ryu;5I{K;WIITw9"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">1</field></shadow></value></block></statement></block><block type="device_forever" id="bqJMa[is/ihV8ZZ3Q+O*" x="281" y="42"></block><block type="radio_on_string_drag" id=".[!{9HGr[4P[;(!b9eg^" x="-57" y="242"><value name="HANDLER_DRAG_PARAM_receivedString"><shadow type="argument_reporter_string" id="Wy(FR1)AsjV!ZfJ~m*bE"><field name="VALUE">receivedString</field></shadow></value><statement name="HANDLER"><block type="controls_if" id="H*Pk|+;iG!vfuoKXD-:."><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="J2O3yWECH},gYwtHDn=k"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="$G|Z3MbguH2M49fvop-;"><field name="OP">EQ</field><value name="A"><shadow type="text" id="ra#IS4,4Vk|~4G{2Ys{f"><field name="TEXT"></field></shadow><block type="argument_reporter_string" id="_U;%6ms^LwRd@5iQ-f4a"><field name="VALUE">receivedString</field></block></value><value name="B"><shadow type="text" id="x.Q2$J+_1Eo++MB,Mn%q"><field name="TEXT">dit</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="I=W_fw}t-.H2n$WE_[+,"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="6;xtE#v/h1uUUjc)pOeG"><field name="OP">EQ</field><value name="A"><shadow type="text" id="}udWTRy+/as[t59agu37"><field name="TEXT"></field></shadow><block type="argument_reporter_string" id="~vezbg?6n6(}W6vTkOV."><field name="VALUE">receivedString</field></block></value><value name="B"><shadow type="text" id="F/;]Qa:|k9F=X8M5(DX/"><field name="TEXT">dah</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id=")Pm:.pgfxQ},EhxHD%vp"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="cP/WlcCz+v^L(_vQfA6_"></block></statement><next><block type="device_clear_display" id="!VWg?+|oPc3+G|0yuko,"></block></next></block></statement></block><block type="device_button_event" id="?_$SgL=)^H-iw6!y^jy1" x="481" y="256"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="/Vtk?Ot$0~O@!.qJj5[D"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="radio_datagram_send_string" id="l(!fp7l7{je5w)gjZvww"><value name="msg"><shadow type="text" id="jc)+h:m1V#Yd?nU^[`xN"><field name="TEXT">dit</field></shadow></value><next><block type="device_clear_display" id="XQ}%KxNV4l/16|Kr.+z7"></block></next></block></next></block></statement></block><block type="device_button_event" id="q(?PmVV!p5iaH|(4b_3E" x="789" y="261"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="FRc2Ro#T:~^6K?eH4O5D"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="radio_datagram_send_string" id="-bbW_-:sN{x:GxTu!gK/"><value name="msg"><shadow type="text" id="~}2B|ftJnhLKQ!e|#{By"><field name="TEXT">dah</field></shadow></value><next><block type="device_clear_display" id="R9NUm`c,4P=u]qoNGQxN"></block></next></block></next></block></statement></block></xml>
