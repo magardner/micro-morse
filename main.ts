@@ -19,6 +19,7 @@ radio.onReceivedString(function (receivedString) {
             . # # # .
             . . . . .
             `)
+        music.playTone(262, music.beat(BeatFraction.Half))
     } else if (receivedString == "dah") {
         basic.showLeds(`
             . . . . .
@@ -27,6 +28,7 @@ radio.onReceivedString(function (receivedString) {
             . . . . .
             . . . . .
             `)
+        music.playTone(262, music.beat(BeatFraction.Double))
     } else {
         basic.clearScreen()
     }
