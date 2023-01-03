@@ -1,4 +1,5 @@
 input.onButtonPressed(Button.A, function () {
+    music.playTone(262, music.beat(BeatFraction.Half))
     basic.showLeds(`
         . . . . .
         . # # # .
@@ -32,6 +33,7 @@ radio.onReceivedString(function (receivedString) {
     basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
+    music.playTone(262, music.beat(BeatFraction.Double))
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -43,6 +45,4 @@ input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
 })
 radio.setGroup(1)
-basic.forever(function () {
-	
-})
+music.setBuiltInSpeakerEnabled(true)
